@@ -40,7 +40,9 @@ Project Setup
 5. Install Java 11 and Maven.
 
 sudo apt-get update -y
+
 sudo apt install openjdk-11-jre -y
+
 sudo apt-get install maven -y
 
 
