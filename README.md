@@ -24,12 +24,12 @@ Let's consider a scenario where Company XYZ is developing a web application call
 
 Project Setup
 
-1. First, create a security group where the SSH port on 22 should be opened.
+1. We will be using AWS here so first, create a security group where the SSH port on 22 should be opened.
 
 2. Launch an instance and apply the security rule we created on that.
    - Try to use T2.Medium or Large instance type.
    - Choose 20.4 LTS Ubuntu.
-
+   
 3. Create a security key .pem file and assign it.
    - Open Mobaxterm and enter the public IP address.
    - Write "ubuntu" as the username.
