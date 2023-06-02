@@ -51,21 +51,21 @@ git clone https://github.com/Swayam-Prakash-Bhuyan/springboot-java-poject.git
 
 7. Run the following Maven commands to build and run the application:
 
-mvn validate,
+a) mvn validate: This command is used to validate the project structure and configuration. It checks if the project is set up correctly and all necessary information is available.
 
-mvn compile,
+b) mvn compile: This command compiles the source code of the project. It takes the source files from the src/main/java directory and compiles them into bytecode, placing the compiled classes in the target/classes directory.
 
-mvn test,
+c) mvn test: The test command runs the unit tests in the project. It looks for test files in the src/test/java directory and executes them. This is useful for verifying that the code behaves as expected and doesn't introduce any regressions.
 
-mvn package,
+d) mvn package: The package command creates a distributable package of the project. It takes the compiled classes from the target/classes directory, along with any resources in the src/main/resources directory, and packages them into a format such as a JAR (Java Archive) file. This package can be used for distribution or deployment.
 
-mvn install,
+e) mvn install: The install command installs the project artifacts into the local Maven repository. It takes the packaged artifacts from the target directory and copies them to the local repository. This allows other projects on the same machine to use the artifacts as dependencies.
 
-mvn clean,
+f) mvn clean: The clean command removes the build artifacts from previous builds. It deletes the target directory, which contains the compiled classes, packaged files, and other generated files. Running clean ensures a fresh build by removing any remnants of previous builds.
 
-mvn clean package,
+g) mvn clean package: This command combines the clean and package commands. It first cleans the project by deleting the target directory, and then proceeds to package the project again, generating fresh build artifacts.
 
-mvn deploy (not used)
+h) mvn deploy: The deploy command is used to deploy the project artifacts to a remote repository, such as a Maven repository manager. It is typically used in a continuous integration or deployment pipeline to make the project artifacts available to other developers or systems.
 
 To run the application, navigate to the target folder and execute the following command:
 
