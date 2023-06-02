@@ -52,12 +52,19 @@ git clone https://github.com/Swayam-Prakash-Bhuyan/springboot-java-poject.git
 7. Run the following Maven commands to build and run the application:
 
 mvn validate,
+
 mvn compile,
+
 mvn test,
+
 mvn package,
+
 mvn install,
+
 mvn clean,
+
 mvn clean package,
+
 mvn deploy (not used)
 
 To run the application, navigate to the target folder and execute the following command:
